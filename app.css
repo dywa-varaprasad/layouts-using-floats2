@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 10vh;
+  border: 2px solid red;
+  width: auto;
+}
+
+main {
+  height: 35vh;
+  width: 100vw;
+  border: 2px solid red;
+}
+
+main section {
+  width: 33.33%;
+  border: 2px solid greenyellow;
+  height: 100%;
+  float: left;
+}
+
+.bottom {
+  width: auto;
+  height: 35vh;
+  border: 2px solid red;
+}
+
+.bottom section {
+  border: 2px solid greenyellow;
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+footer {
+  height: 10vh;
+  width: auto;
+  border: 2px solid red;
+}
+
+p {
+  text-align: center;
+  color: rgb(231, 16, 163);
+  font-size: 25px;
+}
